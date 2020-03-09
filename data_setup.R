@@ -4,7 +4,7 @@ library(magrittr)
 library(dplyr)
 library(tidyr)
 
-gfk_names <- read.csv("\\\\mathematica.Net\\NDrive\\Project\\50184_PCI\\DC1\\5. Analysis\\Microwave\\GfK microwave\\Contents of file.csv")
+gfk_names <- read.csv("\\\\50184_PCI\\DC1\\5. Analysis\\Microwave\\GfK microwave\\Contents of file.csv")
 gfk_raw <- read.csv("../Data/GfK_raw_no_free_response.csv")
 data_understand <- read.csv("../Data/understandability_index.csv")
 data_loweffort <- read.csv("../Data/loweffort_screen.csv")
